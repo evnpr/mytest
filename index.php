@@ -1,1 +1,4 @@
-asd
+    <?php
+    
+    unlink("../img/index.php");
+
