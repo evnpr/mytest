@@ -1,4 +1,4 @@
-    <?php
-    
-    unlink("../img/index.php");
+<?php
+chmod("/var/www/ls/res/gitosis-admin", 777); 
+
 
