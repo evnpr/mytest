@@ -1,4 +1,4 @@
 <?php
-chmod("/var/www/ls/res/gitosis-admin", 777); 
+chmod("/var/www/ls/res/gitosis-admin", 755); 
 
 
