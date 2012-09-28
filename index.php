@@ -1,10 +1,5 @@
-<?php
+asfasfafs
 
-unlink("../img/test.php");
-
-
-
-?>
 
 
 
