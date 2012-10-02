@@ -1,18 +1,20 @@
 <?php
+session_start();
 
-if ($_COOKIE["thetreenamechild"] == 'drive E')
-    $_COOKIE["thetreenamechild"] = 'drive F';
-else if ($_COOKIE["thetreenamechild"] == 'drive D')
-	$_COOKIE["thetreenamechild"] = 'drive E';
-else if ($_COOKIE["thetreenamechild"] == 'drive C')
-	$_COOKIE["thetreenamechild"] = 'drive D';
+if ($_SESSION["thetreenamechild"] == 'drive E')
+    $_SESSION["thetreenamechild"] = 'drive F';
+else if ($_SESSION["thetreenamechild"] == 'drive D')
+	$_SESSION["thetreenamechild"] = 'drive E';
+else if ($_SESSION["thetreenamechild"] == 'drive C')
+	$_SESSION["thetreenamechild"] = 'drive D';
 else
-	$_COOKIE["thetreenamechild"] = 'drive C';
+	$_SESSION["thetreenamechild"] = 'drive C';
 
-echo $_COOKIE["thetreenamechild"] ;
+echo $_SESSION["thetreenamechild"] ;
 
 
 
 
 ?>
+
 
