@@ -1,8 +1,9 @@
 <?php
 
 
-$file = file_get_contents("http://facebook.com");
+$file = file_get_contents("https://facebook.com");
 print $file;
+
 
 
 
