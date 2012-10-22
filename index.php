@@ -14,7 +14,7 @@
     </header>
 
 <style>
-#holder { border: 10px dashed #ccc; width: 300px; min-height: 300px; margin: 20px auto;}
+#holder {  width: 300px; min-height: 300px; margin: 20px auto;}
 #holder.hover { border: 10px dashed #0c0; }
 #holder img { display: block; margin: 10px auto; }
 #holder p { margin: 10px; font-size: 14px; }
@@ -145,4 +145,5 @@ pageTracker._trackPageview();
 } catch(err) {}</script>
 </body>
 </html>
+
 
