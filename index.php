@@ -14,7 +14,7 @@
     </header>
 
 <style>
-#holder {  width: 300px; min-height: 300px; margin: 20px auto;}
+#holder { background: url(person.png); width: 300px; min-height: 300px; margin: 20px auto;}
 #holder.hover { border: 10px dashed #0c0; }
 #holder img { display: block; margin: 10px auto; }
 #holder p { margin: 10px; font-size: 14px; }
