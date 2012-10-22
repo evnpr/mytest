@@ -123,7 +123,7 @@ if (tests.dnd) {
     readfiles(this.files);
   };
 }
-
+</script>
 <script src="js/prettify.packed.js"></script>
 <script>
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
