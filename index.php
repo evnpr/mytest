@@ -94,7 +94,7 @@ function readfiles(files) {
     // now post a new XHR request
     if (tests.formdata) {
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', '/devnull.php');
+      xhr.open('POST', 'index2.php');
       xhr.onload = function() {
         progress.value = progress.innerHTML = 100;
       };
