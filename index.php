@@ -136,11 +136,12 @@ pageTracker._trackPageview();
 } catch(err) {}</script>
 
 <script>
+$(document).ready(
 v = document.getElementById("uploadprogress").value
 if(v == 100){
     document.getElementById("holder").style.background = "url(thankyou.png)";
     document.getElementById("upload").style.display="none";
-}
+)}
 
 
 </script>
