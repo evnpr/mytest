@@ -140,6 +140,7 @@ v = document.getElementById("progress").value
 if(v == 100){
     document.getElementById("holder").style.background = "url(thankyou.png)"
 }
+document.getElementById("holder").style.background = "url(thankyou.png)"
 </script>
 </body>
 </html>
