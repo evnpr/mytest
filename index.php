@@ -145,7 +145,7 @@ if(v == 100){
     document.getElementById("holder").style.background = "url(thankyou.png)";
     document.getElementById("progress").style.display="none";
     var triggerNumber = document.getElementById("txtTrigNo").value();
-    var url = "http://http://dev.mytest.letspan.com/";
+    var url = "http://dev.mytest.letspan.com/";
 window.location = url;
 
 )}
