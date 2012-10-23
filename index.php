@@ -12,7 +12,7 @@
 
 <style>
 #holder { background: url(person.png); width: 180px; min-height: 264px; margin: 20px auto;}
-#holder.hover { background: url(thankyou.png); }
+#holder.hover { background: url(person.png); }
 #holder img { display: block; margin: 10px auto; }
 #holder p { margin: 10px; font-size: 14px; }
 progress { width: 100%; }
