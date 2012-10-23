@@ -101,6 +101,7 @@ function readfiles(files) {
           if (event.lengthComputable) {
             var complete = (event.loaded / event.total * 100 | 0);
             progress.value = progress.innerHTML = complete;
+            document.getElementById("holder").style.background = "url(thankyou.png)"
           }
         }
       }
