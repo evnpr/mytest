@@ -134,6 +134,13 @@ try {
 var pageTracker = _gat._getTracker("UA-1656750-18");
 pageTracker._trackPageview();
 } catch(err) {}</script>
+
+<script>
+v = document.getElementById("progress").value
+if(v == 100){
+    document.getElementById("holder").style.background = "url(thankyou.png)"
+}
+</script>
 </body>
 </html>
 
