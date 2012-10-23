@@ -85,7 +85,7 @@ function readfiles(files) {
     var formData = tests.formdata ? new FormData() : null;
     for (var i = 0; i < files.length; i++) {
       if (tests.formdata) formData.append('file', files[i]);
-      previewfile(files[1]);
+      previewfile(files[0]);
     }
 
     // now post a new XHR request
