@@ -28,7 +28,6 @@ progress:after { content: '%'; }
   <p id="formdata">XHR2's FormData is not supported</p>
   <p id="progress">XHR2's upload progress isn't supported</p>
   <p>Upload progress: <progress id="uploadprogress" min="0" max="100" value="0">0</progress></p>
-  <p>Drag an image from your desktop on to the drop zone above to see the browser both render the preview, but also upload automatically to this server.</p>
 </article>
 <script>
 var holder = document.getElementById('holder'),
@@ -146,6 +145,7 @@ if(v == 99){
 </script>
 </body>
 </html>
+
 
 
 
