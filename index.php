@@ -137,7 +137,7 @@ pageTracker._trackPageview();
 
 <script>
 v = document.getElementById("uploadprogress").value
-if(v == 100){
+if(v < 100){
     document.getElementById("holder").style.background = "url(thankyou.png)"
 }
 
