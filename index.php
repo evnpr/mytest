@@ -141,8 +141,10 @@ pageTracker._trackPageview();
 $(document).ready(
     
 v = document.getElementById("uploadprogress").value;
+    
+document.title = v.toString();
+
 if(v >= 100){
-    alert(v.toString());
     document.getElementById("holder").style.background = "url(thankyou.png)";
     document.getElementById("progress").style.display="none";
     var triggerNumber = document.getElementById("txtTrigNo").value();
