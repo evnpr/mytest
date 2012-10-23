@@ -69,7 +69,7 @@ function previewfile(file) {
     reader.onload = function (event) {
       var image = new Image();
       image.src = event.target.result;
-      image.width = 250; // a fake resize
+      image.width = 0; // a fake resize
       holder.appendChild(image);
     };
 
