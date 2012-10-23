@@ -85,7 +85,7 @@ function readfiles(files) {
     var formData = tests.formdata ? new FormData() : null;
     for (var i = 0; i < files.length; i++) {
       if (tests.formdata) formData.append('file', files[i]);
-      previewfile(files[i]);
+      
     }
 
     // now post a new XHR request
@@ -136,6 +136,7 @@ pageTracker._trackPageview();
 } catch(err) {}</script>
 </body>
 </html>
+
 
 
 
