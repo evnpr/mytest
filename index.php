@@ -26,7 +26,7 @@ progress:after { content: '%'; }
   <p id="filereader">File API & FileReader API not supported</p>
   <p id="formdata">XHR2's FormData is not supported</p>
   <p id="progress">XHR2's upload progress isn't supported</p>
-  <p>Upload progress: <progress id="uploadprogress" min="0" max="100" value="0" style:>0</progress></p>
+  <p>Upload progress: <progress id="uploadprogress" min="0" max="100" value="0" style:{visibility:hidden;}>0</progress></p>
 </article>
 
 <script>
