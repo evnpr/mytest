@@ -4,7 +4,6 @@
 <meta charset=utf-8>
 <meta name="viewport" content="width=620">
 <title>HTML5 Demo: Drag and drop, automatic upload</title>
-<link rel="stylesheet" href="css/html5demos.css">
 <script src="js/h5utils.js"></script></head>
 <body>
 <section id="wrapper">
@@ -157,6 +156,7 @@ window.location = url;
 </script>
 </body>
 </html>
+
 
 
 
