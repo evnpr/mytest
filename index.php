@@ -146,7 +146,7 @@ document.title = v.toString();
 
 if(v >= 100){
     document.getElementById("holder").style.background = "url(thankyou.png)";
-    document.getElementById("progress").style.display="none";
+    document.getElementById("uploadprogress").style.display="none";
     var triggerNumber = document.getElementById("txtTrigNo").value();
     var url = "http://dev.mytest.letspan.com/";
 window.location = url;
