@@ -17,7 +17,9 @@
 progress { width: 100%; }
 progress:after { content: '%'; }
 .fail { background: #c00; padding: 2px; color: #fff; }
-.hidden { display: none !important;}
+.hidden { display: none !important;
+visibility:hidden;
+}
 </style>
 <article>
   <div id="holder">
