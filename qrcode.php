@@ -1,6 +1,6 @@
 <?php
 
-include "BarcodeQR.php"; 
+include "barcode.php"; 
 
 // set BarcodeQR object 
 $qr = new BarcodeQR(); 
