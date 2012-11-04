@@ -9,6 +9,8 @@
 <section id="wrapper">
 
 
+
+
 <style>
 #holder { background: url(person.png); width: 180px; min-height: 264px; margin: 20px auto;}
 #holder.hover { background: url(person.png); }
